@@ -2,6 +2,7 @@ const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
+
 let n = Math.floor(Math.random() * 100) + 1
 
 function guess() {
