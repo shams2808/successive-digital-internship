@@ -6,6 +6,6 @@ let student = {
 }
 
 console.log(student.name);          //Shamit
-console.log(student["age"])
-console.log(Object.keys(student))
-console.log(Object.values(student))
+console.log(student["age"])         //21
+console.log(Object.keys(student))   //[ 'name', 'age', 'city', 'isGraduated' ]
+console.log(Object.values(student)) //[ 'Shamit', 21, 'Ghazabad', false ]
